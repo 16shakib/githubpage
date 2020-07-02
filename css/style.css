@@ -1,0 +1,63 @@
+img{
+	max-width: 100%
+}
+
+.navbar-brand{
+	max-width: 50px
+}
+
+.features-section {
+	background-color: #3e444a;
+	height: 100vh;
+}
+
+.col-xl-6{}
+
+.col-xl-6 h1{
+	margin-top: 100px;
+    color: white;
+    font-weight: 600;
+    font-size: 65px;
+}
+
+.col-xl-6 p{
+	    margin-top: 0;
+    margin-bottom: 1rem;
+    color: #ffffff73;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.col-xl-6 p a{
+	color: white;
+    text-decoration: revert;
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+.container{
+	width: 550PX
+	} }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+.container{
+	width: 750PX
+	} }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { 
+.container{
+	width: 950PX
+	} }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+.container{
+	width: 1140PX
+	} }
+
+
